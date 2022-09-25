@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ubuntu:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ubuntu:ital,wght@0,400;1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ubuntu:ital,wght@0,400;1,500&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Anton','Ubuntu';
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brd img{
+    width: 44px;
+    padding:0 8px;
+}
+.brd {
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3 rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Anton',sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(w3.jpg);
+    
+
+}
+.bottom{
+    position: sticky;
+    height: 95%;
+    background-color: black;
+    color: white;
+    bottom: 2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+#Currentplay{
+    width:80vw;
+    cursor: pointer;
+   /*text-align: centre; yha kam nhi krega isliye align-items kia h */
+}
+.musicItem{
+    height: 33px;
+    display: flex;
+    background-color: grey;
+    width: 85%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+ .musicItemContainer{
+    margin-top: 60px;
+
+ }
+
+.musicItem img
+{ 
+    width: 47px;
+    margin: 0 0px;
+    border-radius: 24px; /*give circular shape to pic*/
+
+}
+.timespan{
+    margin: 0,23px;/*top-bottom,left-right*/
+
+}
+.musicPlaylist{
+    padding-right: 15px;
+}
+.musicInfo{
+    position: absolute;
+    left: 9.7vw;
+    font-family:'Varela Round';
+}
+.musicInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
